@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>WebRTC Thesis
+        </title>
+        <style>
+        body {
+            background-color: #000000;
+            font-family: sans-serif;
+            color: white;
+        }
+        video {
+            background: black;
+            border: 1px solid gray;
+            width: 480px;
+            height: 320px;
+        }
+        #yours {
+            width: 480px;
+            height: 320px;
+        }
+        #theirs {
+            width: 480px;
+            height: 320px;
+        }
+        </style>
+    </head>
+    <body>
+        <video id="yours" autoplay></video>
+        <video id="theirs" autoplay></video>
+        <button id="hang-up">Hang Up</button>
+        <button id="record">Record</button>
+        <button id="send">RecordSides</button>
+        <button id="download">Download</button>
+        <br/><br/>
+        <ul id="thelist">
+        </ul>
+        <p id="demo"></p>
+        <script src="main.js" type="text/javascript"></script>
+
+    </body>
+</html>
